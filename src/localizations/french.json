@@ -1,0 +1,41 @@
+{
+  "h-bio": "Salut, je m'appelle Tarik Benchekroun et je suis ingénieur logiciel senior. Bienvenu sur mon site perso !",
+  "h-about-me-title": "A propos de moi",
+  "h-skills-title": "Mes compétences",
+  "h-professionnal-way-title": "Parcours professionnel",
+  "h-personnal-projects-title": "Projets personnels",
+  "h-hobbies-title": "Mes passe-temps",
+  "h-contact-title": "Me contacter",
+  "h-dark-mode-title": "Mode sombre",
+  "h-language-title": "Langue",
+
+  "m-about-me-title": "Senior Software Engineer",
+  "m-about-me-description": "Passionné et expert des technologies .Net, j'ai acquis, grâce à de nombreuses expériences, de solides connaissances dans le développement d'applications de systèmes critiques. De nature curieux, j’attache un intérêt particulier à la veille technologique et mon tempérament m'impose une sans cesse remise en question. Mon attachement à la satisfaction client et mon désir de fournir un travail de qualité m’ont valu de nombreuses réussites au fil de mes différentes missions.",
+
+  "m-skills-title": "Mes compétences",
+  "m-skills-description": "Vous trouverez ci-dessous un bref aperçu de mes principales compétences techniques et des technologies que j'utilise. Je me mets toujours au défi d'étendre mes connaissances dans une nouvelle technologie, et ainsi de me faire ma propre opinion à son sujet.",
+  "m-skills-backend": "Backend",
+  "m-skills-frontend": "Frontend",
+  "m-skills-tools": "Outils",
+
+  "m-professionnal-way-title": "Parcours professionnel",
+  "m-professionnal-way-description": "J'ai presque 10 ans d'expérience dans le développement d'applications, destinées à des clients renommés, dans des domaines métiers variés.",
+  "m-professionnal-way-somb-description": "Développeur puis responsable technique (à partir de 2016) d'un nouveau client lourd permettant la configuration d’automates destinés à être utilisés dans des usines de production afin de pouvoir piloter différents types de matériels industriels.<ul><li>Gestion de 3 langages de programmation pour automaticiens (Ladder, Grafcet et IL),</li><li>Monitoring de l'automate par l'application,</li><li>Etudes des fuites mémoires, amélioration des performances,</li><li>Chiffrage, interface avec le Product Owner,</li><li>Intégration de la cyber sécurité (protection de l'automate R/W, chiffrement des données).</li></ul>",
+  "m-professionnal-way-somb-date": "Mai 2013",
+  "m-professionnal-way-tiama-description": "Responsable technique d'une application web donnant la possibilité de configurer les machines d'une usine de production de verre.<ul><li>Agrégation de données machines temps-réel (alertes, informations),</li><li>Réalisation de statistiques de production,</li><li>Configuration des machines par API REST,</li><li>Garantie d'une expérience utilisateur optimale (écran 4k tactile).</li></ul>",
+  "m-professionnal-way-tiama-date": "Août 2018",
+  "m-professionnal-way-wtpl-description": "Responsable technique d'une application client lourd visant à superviser différents parcs éoliens européens.<ul><li>Lecture des données issues des différentes éoliennes (via un connecteur PI),</li><li>Optimisation des performances de calcul des différents graph.</li></ul>",
+  "m-professionnal-way-wtpl-date": "Octobre 2018",
+  "m-professionnal-way-datahub-description": "Développement d'une plateforme IoT, dans le cloud Azure permettant de récupérer différents types de données provenant d'usines partout dans le monde.<ul><li>Implémentation en plusieurs microservices,</li><li>Historisation des métriques dans une base de données Time Series,</li><li>A terme mise en production dans un cluster Kubernetes,</li><li>Gestion des pipelines azure pour le processus de build et de release (AzureDevOps).</li></ul>",
+  "m-professionnal-way-datahub-date": "2019",
+  "m-professionnal-way-simcruevr-description": "Responsable technique d'une application de réalité virtuelle à destination des formateurs au passage de crue. Cette dernière s'interface avec un moteur de simulation et propose une vue 3D de l'environement d'un aménagement (local de crue, pupitre de commande, barage, etc...).<ul><li>Définition d'une architecture logiciel permettant le développement rapide d'environement VR,</li><li>Génération au runtime de l'environement,</li><li>Définition de briques métier facilitant la scalabilité des environements.</li></ul>",
+  "m-professionnal-way-simcruevr-date": "2020",
+
+  "m-personnal-projects-title": "Projets personnels",
+  "m-personnal-projects-description": "Il est important pour moi de pouvoir apprendre un nouveau language ou framework en créant une application pouvant être mise en production. En voici quelques unes.",
+  "m-personnal-projects-youtify-description": "Cette application android utilise les APIs Youtube et Spotify pour gérer vos playlists. Développé à l'aide du framework React Native, vous pouvez automatiquement créer vos playlists mensuelles et les synchroniser entre-elles.",
+  "m-personnal-projects-grenoble-road-traffic-description": "Cette application android développé à l'aide du framework React Native permet de suivre le traffic routier autour de la  ville de Grenoble. Vous pouvez choisir, parmi toutes les caméras disponibles, de mettre en favori celles qui vous interessent.",
+  "m-personnal-projects-unity-starter-kit-description": "Le UnityStarterKit fournit une brique de base au développement d'application de réalité virtuelle sous Unity3D. Grâce à ce kit, vous pouvez facilement faire de l'injection de dépendances dans votre application, améliorer la qualité du backend, faire des appels d'API REST ou SOAP, etc...sans dépendances de code externe !",
+
+  "read-more": "En savoir plus"
+}

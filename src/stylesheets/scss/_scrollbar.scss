@@ -1,0 +1,28 @@
+$width: 8px;
+$foreground-color: lightgrey;
+$background-color: rgb(240, 240, 240);
+
+@mixin scrollbars() {
+  height: 100vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+
+  // For Google Chrome
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $foreground-color;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $background-color;
+  }
+
+  // For Internet Explorer
+  & {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+}

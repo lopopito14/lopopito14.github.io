@@ -1,0 +1,23 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "emeraldwalk.runonsave": {
+    "commands": [
+      // {
+      //   "match": ".*\\.ts$",
+      //   "cmd": "tsc -p tsconfig.json",
+      //   "runIn": "backend",
+      //   "runningStatusMessage": "Compiling ${fileBasename}",
+      //   "finishStatusMessage": "${fileBasename} compiled"
+      // },
+      // {
+      //   "match": ".*\\.scss$",
+      //   "cmd": "node-sass src/stylesheets/main.scss src/stylesheets/main.css",
+      //   "runIn": "backend",
+      //   "runningStatusMessage": "Compiling ${fileBasename}",
+      //   "finishStatusMessage": "${fileBasename} compiled"
+      // }
+    ]
+  }
+}

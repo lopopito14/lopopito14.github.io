@@ -1,0 +1,16 @@
+@charset 'UTF-8';
+
+@import "scss/variables";
+@import "scss/base";
+@import "scss/splashscreen";
+@import "scss/scrollbar";
+@import "scss/header";
+@import "scss/main";
+@import "scss/components";
+
+// override the $fa-font-path default value
+$fa-font-path: "fontawesome/webfonts";
+@import "fontawesome/scss/fontawesome.scss";
+@import "fontawesome/scss/brands.scss";
+@import "fontawesome/scss/regular.scss";
+@import "fontawesome/scss/solid.scss";

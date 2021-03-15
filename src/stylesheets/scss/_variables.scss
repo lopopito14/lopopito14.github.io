@@ -1,0 +1,37 @@
+$text-color: rgb(34, 34, 34);
+
+$black: black;
+$white: white;
+$gray: rgb(118, 118, 118);
+$gray-dark: rgb(67, 67, 67);
+
+$light-primary-background-color: rgb(84, 182, 137);
+$light-secondary-background-color: rgb(255, 255, 255);
+
+$light-nav-text-color: rgb(255, 255, 255);
+$light-main-title-text-color: rgb(41, 41, 41);
+$light-main-description-text-color: rgb(79, 79, 79);
+
+$header-width: 280px;
+
+$breakpoints: (
+  "small": 320px,
+  "medium": 768px,
+  "large": 1024px,
+);
+
+// delimiter
+$delimiter-color: rgba(0, 0, 0, 0.1);
+
+// header
+$link-hover-background-color: rgb(240, 240, 240);
+$nav-bar-navigation-item-color: rgba(255, 255, 255, 0.8);
+$nav-bar-navigation-item-hover-color: rgba(7, 3, 3, 0.7);
+$nav-bar-navigation-item-active-color: rgba(7, 3, 3, 0.5);
+
+$dark-mode-color: rgba(255, 255, 255, 0.4);
+$dark-mode-active-color: rgba(255, 255, 255, 0.9);
+// /header
+
+// main
+$about-me-background-color: rgb(250, 250, 250);

@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="stylesheets/main.scss" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Tarik Benchekroun portfolio" />
+    <meta name="robots" content="index,follow" />
+    <title>Tarik Benchekroun</title>
+  </head>
+  <body>
+    <div id="splash-screen"><div class="round"></div></div>
+    <div id="root">
+      <div>
+        <!-- left panel header -->
+        <header class="header header-splash-screen">
+          <h1 class="main-title">Tarik Benchekroun</h1>
+          <!-- profile -->
+          <div class="profile">
+            <img src="./images/profile.png" alt="" />
+            <div class="bio" translate="yes" data-translate="h-bio"></div>
+            <ul class="links-bar">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/tarik-benchekroun/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a href="mailto:benchekroun.tarik@gmail.com"
+                  ><i class="fas fa-envelope"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/lopopito14?tab=repositories"
+                  target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <!-- /profile -->
+          <hr />
+          <!-- navigation bar -->
+          <ul class="nav-bar">
+            <li class="active">
+              <div class="navigation-from" data-nav-from="about-me">
+                <i class="fas fa-user"></i
+                ><span translate="yes" data-translate="h-about-me-title"></span>
+              </div>
+            </li>
+            <li>
+              <div class="navigation-from" data-nav-from="skills">
+                <i class="fas fa-pen"></i
+                ><span translate="yes" data-translate="h-skills-title"></span>
+              </div>
+            </li>
+            <li>
+              <div class="navigation-from" data-nav-from="professionnal-way">
+                <i class="fas fa-laptop-code"></i
+                ><span
+                  translate="yes"
+                  data-translate="h-professionnal-way-title"
+                ></span>
+              </div>
+            </li>
+            <li>
+              <div class="navigation-from" data-nav-from="personnal-projects">
+                <i class="fas fa-draw-polygon"></i
+                ><span
+                  translate="yes"
+                  data-translate="h-personnal-projects-title"
+                ></span>
+              </div>
+            </li>
+            <!-- <li>
+              <div class="navigation-from" data-nav-from="hobbies">
+                <i class="fas fa-gamepad"></i
+                ><span translate="yes" data-translate="h-hobbies-title"></span>
+              </div>
+            </li>
+            <li>
+              <div class="navigation-from" data-nav-from="contact">
+                <i class="fas fa-id-card"></i
+                ><span translate="yes" data-translate="h-contact-title"></span>
+              </div>
+            </li> -->
+          </ul>
+          <!-- /navigation bar -->
+          <hr />
+          <!-- navigation options-->
+          <div class="options">
+            <!-- dark mode -->
+            <!-- <div class="dark-mode-toggle">
+              <h4>
+                <i class="fas fa-adjust"></i>
+                <span translate="yes" data-translate="h-dark-mode-title"></span>
+              </h4>
+              <input type="checkbox" id="darkmode" />
+              <label for="darkmode"></label>
+            </div> -->
+            <!-- /dark mode -->
+            <!-- language -->
+            <div class="language-toggle">
+              <h4>
+                <i class="fas fa-globe"></i>
+                <span translate="yes" data-translate="h-language-title"></span>
+              </h4>
+              <div class="language-buttons">
+                <button data-language="french">
+                  <img src="./images/languages/french-flag.svg" alt="" />
+                </button>
+                <button data-language="english">
+                  <img src="./images/languages/uk-flag.svg" alt="" />
+                </button>
+              </div>
+            </div>
+            <!-- /language -->
+          </div>
+          <!-- /navigation options-->
+        </header>
+        <!-- /left panel header -->
+        <!-- main content -->
+        <main class="main main-splash-screen">
+          <!-- about me section -->
+          <section
+            class="about-me-section navigation-to"
+            data-nav-to="about-me"
+          >
+            <div class="body">
+              <h2>Tarik Benchekroun</h2>
+              <div
+                class="title"
+                translate="yes"
+                data-translate="m-about-me-title"
+              ></div>
+              <div
+                class="description"
+                translate="yes"
+                data-translate="m-about-me-description"
+              ></div>
+            </div>
+            <img src="./images/profile.png" alt="" />
+          </section>
+          <!-- /about me section -->
+          <!-- skills -->
+          <section class="skills-section navigation-to" data-nav-to="skills">
+            <div class="section-header">
+              <h2 translate="yes" data-translate="m-skills-title"></h2>
+              <div
+                class="description"
+                translate="yes"
+                data-translate="m-skills-description"
+              ></div>
+            </div>
+            <div class="skills">
+              <div class="row">
+                <!-- backend -->
+                <div class="column column-2">
+                  <h2 translate="yes" data-translate="m-skills-backend"></h2>
+                  <div class="skills-list">
+                    <img src="./images/skills/c-sharp.svg" alt="CSharp" /><img
+                      src="./images/skills/dotnet-core.svg"
+                      alt=".Net Core"
+                    /><img src="./images/skills/python.svg" alt="Python" /><img
+                      src="./images/skills/django.svg"
+                      alt="Django"
+                    /><img src="./images/skills/nodejs.svg" alt="NodeJS" /><img
+                      src="./images/skills/docker.svg"
+                      alt="Docker"
+                    /><img
+                      src="./images/skills/mongodb.svg"
+                      alt="MongoDB"
+                    /><img
+                      src="./images/skills/sql-server.svg"
+                      alt="SQLServer"
+                    /><img src="./images/skills/graphql.svg" alt="GraphQL" />
+                  </div>
+                </div>
+                <!-- /backend -->
+                <!-- frontend -->
+                <div class="column column-2">
+                  <h2 translate="yes" data-translate="m-skills-frontend"></h2>
+                  <div class="skills-list">
+                    <img
+                      src="./images/skills/react-native.svg"
+                      alt="React"
+                    /><img src="./images/skills/redux.svg" alt="Redux" /><img
+                      src="./images/skills/sass.svg"
+                      alt="Sass"
+                    /><img src="./images/skills/html-5.svg" alt="HTML5" />
+                    <img src="./images/skills/css3.svg" alt="CSS3" /><img
+                      src="./images/skills/javascript.svg"
+                      alt="Javascript"
+                    /><img
+                      src="./images/skills/typescript.svg"
+                      alt="Typescript"
+                    /><img src="./images/skills/unity.svg" alt="Unity 3D" />
+                  </div>
+                </div>
+                <!-- /frontend -->
+              </div>
+
+              <div class="row">
+                <!-- tools -->
+                <div class="column column-1">
+                  <h2 translate="yes" data-translate="m-skills-tools"></h2>
+                  <div class="skills-list">
+                    <img
+                      src="./images/skills/visual-studio-code-2019.svg"
+                      alt="Visual Studio Code"
+                    /><img src="./images/skills/azure.svg" alt="Azure" /><img
+                      src="./images/skills/git.svg"
+                      alt="Git"
+                    /><img
+                      src="./images/skills/kubernetes.svg"
+                      alt="Kubernetes"
+                    />
+                  </div>
+                </div>
+                <!-- /tools -->
+              </div>
+            </div>
+          </section>
+          <!-- /skills -->
+          <hr />
+          <!-- professionnal way -->
+          <section
+            class="professionnal-way-section navigation-to"
+            data-nav-to="professionnal-way"
+          >
+            <div>
+              <div class="section-header">
+                <h2
+                  translate="yes"
+                  data-translate="m-professionnal-way-title"
+                ></h2>
+                <div
+                  class="description"
+                  translate="yes"
+                  data-translate="m-professionnal-way-description"
+                ></div>
+              </div>
+              <div>
+                <div class="company-header">
+                  <img src="./images/pro/thales.svg" alt="Thales" />
+                </div>
+                <!-- timeline -->
+                <section id="cd-timeline" class="cd-container">
+                  <div class="cd-timeline-year">
+                    <div class="cd-timeline-year-text">
+                      <h3>2013</h3>
+                    </div>
+                  </div>
+                  <!-- so machine basic -->
+                  <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-schneider">
+                      <img
+                        src="./images/pro/schneider-electric.svg"
+                        alt="=S="
+                      />
+                    </div>
+
+                    <div class="cd-timeline-content">
+                      <h2>SoMachine Basic</h2>
+                      <p
+                        translate="yes"
+                        data-translate="m-professionnal-way-somb-description"
+                      ></p>
+                      <a
+                        href="https://www.se.com/fr/fr/product-range/2226-ecostruxure%E2%84%A2-machine-expert/?subNodeId=14435955187fr_FR"
+                        class="cd-read-more btn btn-primary"
+                        target="_blank"
+                        rel="noreferrer"
+                        ><i class="fas fa-arrow-alt-circle-right mr-2"></i
+                        ><span translate="yes" data-translate="read-more"></span
+                      ></a>
+                      <h1
+                        class="cd-date"
+                        translate="yes"
+                        data-translate="m-professionnal-way-somb-date"
+                      ></h1>
+                      <div class="cd-animation">
+                        <div class="cd-animation-somb">
+                          <div class="ground"></div>
+                          <img
+                            class="factory-image"
+                            src="./images/pro/factory.png"
+                            alt="factory"
+                            width="100"
+                            height="100"
+                          />
+                          <img
+                            class="plc-image"
+                            src="./images/pro/plc.png"
+                            alt="plc"
+                            width="300"
+                            height="300"
+                          />
+                          <div class="text"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /so machine basic -->
+
+                  <div class="cd-timeline-year">
+                    <div class="cd-timeline-year-text">
+                      <h3>2018</h3>
+                    </div>
+                  </div>
+
+                  <!-- tcc -->
+                  <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-tiama">
+                      <img src="./images/pro/tiama.png" alt="tiama" />
+                    </div>
+
+                    <div class="cd-timeline-content">
+                      <h2>Tiama Control Center</h2>
+                      <p
+                        translate="yes"
+                        data-translate="m-professionnal-way-tiama-description"
+                      ></p>
+                      <a
+                        href="https://www.tiama.com/products-smartfactory-focused/"
+                        class="cd-read-more btn btn-primary"
+                        target="_blank"
+                        rel="noreferrer"
+                        ><i class="fas fa-arrow-alt-circle-right mr-2"></i
+                        ><span translate="yes" data-translate="read-more"></span
+                      ></a>
+                      <span
+                        class="cd-date"
+                        translate="yes"
+                        data-translate="m-professionnal-way-tiama-date"
+                      ></span>
+                      <div class="cd-animation">
+                        <div class="cd-animation-tcc">
+                          <img
+                            class="robot robot-left"
+                            src="./images/pro/robot.png"
+                            alt="robot"
+                          />
+                          <img
+                            class="robot robot-right"
+                            src="./images/pro/robot.png"
+                            alt="robot"
+                          />
+                          <div
+                            class="conveyor conveyor-top conveyor-left"
+                          ></div>
+                          <div
+                            class="conveyor conveyor-bottom conveyor-left"
+                          ></div>
+                          <div
+                            class="conveyor conveyor-top conveyor-right"
+                          ></div>
+                          <div
+                            class="conveyor conveyor-bottom conveyor-right"
+                          ></div>
+                          <img
+                            class="wheel left-wheel"
+                            src="./images/pro/wheel.png"
+                            alt="wheel"
+                          />
+                          <img
+                            class="wheel right-wheel"
+                            src="./images/pro/wheel.png"
+                            alt="wheel"
+                          />
+                          <img
+                            class="bottle wine-bottle"
+                            src="./images/pro/wine-bottle.png"
+                            alt=""
+                          />
+                          <img
+                            class="bottle beer-bottle"
+                            src="./images/pro/beer-bottle.png"
+                            alt=""
+                          />
+                          <img
+                            class="machine"
+                            src="./images/pro/machine.png"
+                            alt="machine"
+                          />
+                          <img
+                            class="status status-ok"
+                            src="./images/pro/ok.png"
+                            alt="ok"
+                          />
+                          <img
+                            class="status status-ko"
+                            src="./images/pro/delete.png"
+                            alt="delete"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /tcc -->
+
+                  <!-- wtpl -->
+                  <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-edf">
+                      <img src="./images/pro/edf.svg" alt="edf" />
+                    </div>
+
+                    <div class="cd-timeline-content">
+                      <h2>WTPL</h2>
+                      <p
+                        translate="yes"
+                        data-translate="m-professionnal-way-wtpl-description"
+                      ></p>
+                      <span
+                        class="cd-date"
+                        translate="yes"
+                        data-translate="m-professionnal-way-wtpl-date"
+                      ></span>
+                      <div class="cd-animation">
+                        <div class="cd-animation-wtpl">
+                          <div class="ground"></div>
+                          <div class="turbine-1">
+                            <img
+                              class="blades"
+                              src="./images/pro/blades.png"
+                              width="100"
+                              height="100"
+                              alt="blades"
+                            />
+                            <img
+                              class="stand"
+                              src="./images/pro/stand.png"
+                              width="10"
+                              height="109"
+                              alt="stand"
+                            />
+                          </div>
+                          <div class="turbine-2">
+                            <img
+                              class="blades"
+                              src="./images/pro/blades.png"
+                              width="100"
+                              height="100"
+                              alt="blades"
+                            />
+                            <img
+                              class="stand"
+                              src="./images/pro/stand.png"
+                              width="10"
+                              height="109"
+                              alt="stand"
+                            />
+                          </div>
+                          <div class="turbine-3">
+                            <img
+                              class="blades"
+                              src="./images/pro/blades.png"
+                              width="120"
+                              height="120"
+                              alt="blades"
+                            />
+                            <img
+                              class="stand"
+                              src="./images/pro/stand.png"
+                              width="12"
+                              height="130"
+                              alt="stand"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /wtpl -->
+
+                  <div class="cd-timeline-year">
+                    <div class="cd-timeline-year-text">
+                      <h3>2019</h3>
+                    </div>
+                  </div>
+
+                  <!-- datahub -->
+                  <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-schneider">
+                      <img src="./images/pro/schneider-electric.svg" alt="" />
+                    </div>
+
+                    <div class="cd-timeline-content">
+                      <h2>DataHub</h2>
+                      <p
+                        translate="yes"
+                        data-translate="m-professionnal-way-datahub-description"
+                      ></p>
+                      <span
+                        class="cd-date"
+                        translate="yes"
+                        data-translate="m-professionnal-way-datahub-date"
+                      ></span>
+                      <div class="cd-animation">
+                        <div class="cd-animation-datahub">
+                          <div class="ground"></div>
+                          <img
+                            class="cloud cloud-1"
+                            src="./images/pro/cloud-med.png"
+                            alt="cloud"
+                            width="100"
+                            height="52"
+                          />
+                          <img
+                            class="cloud cloud-2"
+                            src="./images/pro/cloud-sml.png"
+                            alt="cloud"
+                            width="70"
+                            height="36"
+                          />
+                          <img
+                            class="cloud cloud-3"
+                            src="./images/pro/cloud-lrg.png"
+                            alt="cloud"
+                            width="130"
+                            height="67"
+                          />
+                          <img
+                            class="factory-image-1"
+                            src="./images/pro/factory-emoji.png"
+                            alt="factory"
+                            width="100"
+                            height="100"
+                          />
+                          <img
+                            class="factory-image-2"
+                            src="./images/pro/factory-1.png"
+                            alt="factory"
+                            width="100"
+                            height="100"
+                          />
+                          <img
+                            class="factory-image-3"
+                            src="./images/pro/manufacturing.png"
+                            alt="factory"
+                            width="100"
+                            height="100"
+                          />
+                          <div class="data data-1"></div>
+                          <div class="data data-2"></div>
+                          <div class="data data-3"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /datahub -->
+
+                  <div class="cd-timeline-year">
+                    <div class="cd-timeline-year-text">
+                      <h3>2020</h3>
+                    </div>
+                  </div>
+
+                  <!-- simcruevr -->
+                  <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-edf">
+                      <img src="./images/pro/edf.svg" alt="" />
+                    </div>
+
+                    <div class="cd-timeline-content">
+                      <h2>SimCrueVR</h2>
+                      <p
+                        translate="yes"
+                        data-translate="m-professionnal-way-simcruevr-description"
+                      ></p>
+                      <span
+                        class="cd-date"
+                        translate="yes"
+                        data-translate="m-professionnal-way-simcruevr-date"
+                      ></span>
+                      <div class="cd-animation">
+                        <div class="cd-animation-simcruevr">
+                          <img
+                            class="dam"
+                            src="./images/pro/dam.jpg"
+                            alt="dam"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /simcruevr -->
+                </section>
+                <!-- /timeline -->
+              </div>
+            </div>
+          </section>
+          <!-- /professionnal way -->
+          <hr />
+          <!-- personal projects -->
+          <section
+            class="personal-projects-section navigation-to"
+            data-nav-to="personnal-projects"
+          >
+            <div>
+              <div class="section-header">
+                <h2
+                  translate="yes"
+                  data-translate="m-personnal-projects-title"
+                ></h2>
+                <div
+                  class="description"
+                  translate="yes"
+                  data-translate="m-personnal-projects-description"
+                ></div>
+              </div>
+              <div>
+                <div class="row">
+                  <!--youtify -->
+                  <div class="column">
+                    <div class="card">
+                      <a
+                        href="https://github.com/lopopito14/Youtify"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img
+                          class="card-img"
+                          src="https://raw.githubusercontent.com/lopopito14/Youtify/master/docs/Screenshot_5.jpg"
+                          alt=""
+                      /></a>
+                      <div class="card-body">
+                        <div class="card-title">Youtify</div>
+                        <p
+                          class="card-description"
+                          translate="yes"
+                          data-translate="m-personnal-projects-youtify-description"
+                        ></p>
+                      </div>
+                      <div class="card-footer">
+                        <a
+                          href="https://github.com/lopopito14/Youtify"
+                          class="cd-read-more btn btn-primary"
+                          target="_blank"
+                          rel="noreferrer"
+                          ><i class="fas fa-arrow-alt-circle-right mr-2"></i
+                          ><span
+                            translate="yes"
+                            data-translate="read-more"
+                          ></span
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /youtify -->
+                  <!-- grenoble road traffic -->
+                  <div class="column">
+                    <div class="card">
+                      <a
+                        href="https://github.com/lopopito14/GrenobleRoadTraffic"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img
+                          class="card-img"
+                          src="https://raw.githubusercontent.com/lopopito14/GrenobleRoadTraffic/master/docs/Screenshot_1.jpg"
+                          alt=""
+                      /></a>
+                      <div class="card-body">
+                        <div class="card-title">Grenoble Road Traffic</div>
+                        <p
+                          class="card-description"
+                          translate="yes"
+                          data-translate="m-personnal-projects-grenoble-road-traffic-description"
+                        ></p>
+                      </div>
+                      <div class="card-footer">
+                        <a
+                          href="https://github.com/lopopito14/GrenobleRoadTraffic"
+                          class="cd-read-more btn btn-primary"
+                          target="_blank"
+                          rel="noreferrer"
+                          ><i class="fas fa-arrow-alt-circle-right mr-2"></i
+                          ><span
+                            translate="yes"
+                            data-translate="read-more"
+                          ></span
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /grenoble road traffic -->
+                  <!-- unity starter kit -->
+                  <div class="column">
+                    <div class="card">
+                      <a
+                        href="https://github.com/lopopito14/UnityStarterKit"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img
+                          class="card-img"
+                          src="https://raw.githubusercontent.com/lopopito14/UnityStarterKit/master/Docs/Screenshot.png"
+                          alt=""
+                      /></a>
+                      <div class="card-body">
+                        <div class="card-title">UnityStarterKit</div>
+                        <p
+                          class="card-description"
+                          translate="yes"
+                          data-translate="m-personnal-projects-unity-starter-kit-description"
+                        ></p>
+                      </div>
+                      <div class="card-footer">
+                        <a
+                          href="https://github.com/lopopito14/UnityStarterKit"
+                          class="cd-read-more btn btn-primary"
+                          target="_blank"
+                          rel="noreferrer"
+                          ><i class="fas fa-arrow-alt-circle-right mr-2"></i
+                          ><span
+                            translate="yes"
+                            data-translate="read-more"
+                          ></span
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /unity starter kit -->
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- /personal projects -->
+        </main>
+        <!-- /main content -->
+        <footer class="footer"></footer>
+      </div>
+    </div>
+    <script src="index.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "h-bio": "Hi, my name is Tarik Benchekroun and I'm a senior software engineer. Welcome to my personal website!",
+  "h-about-me-title": "About me",
+  "h-skills-title": "My skills",
+  "h-professionnal-way-title": "Career history",
+  "h-personnal-projects-title": "Personnal projects",
+  "h-hobbies-title": "Hobbies",
+  "h-contact-title": "Contact",
+  "h-dark-mode-title": "Dark mode",
+  "h-language-title": "Language",
+
+  "m-about-me-title": "Senior Software Engineer",
+  "m-about-me-description": "Passionate and expert in .Net technologies, I have gained, through many experiences, a solid knowledge in the development of applications of critical systems. Curious by nature, I attach a special interest to the technology intelligence and my temperament imposes me a constant questioning. My commitment to customer satisfaction and my deep desire to provide quality work have earned me many successes in my various missions.",
+
+  "m-skills-title": "My skills",
+  "m-skills-description": "Below is a quick overview of my main technical skill sets and technologies I use. I always challenge myself to extend my knowledge in a new technology, and also to make my own opnion about it.",
+  "m-skills-backend": "Backend",
+  "m-skills-frontend": "Frontend",
+  "m-skills-tools": "Tools",
+
+  "m-professionnal-way-title": "Career history",
+  "m-professionnal-way-description": "I have almost 10 years' experience building software for important clients in various professional sector.",
+  "m-professionnal-way-somb-description": "Developer then technical manager (from 2016) of a new heavy client application to allow the configuration of a programmable logic controller (PLC), in order to control different types of industrial equipment.<ul><li>Management of 3 programming languages for automation experts (Ladder, Grafcet and  Instruction List),</li><li>Controller monitoring by the application,</li><li>Fixing of memory leaks, performance improvements,</li><li>Features development time estimations, interface with the product owner,</li><li>Integration of cyber security (protection of the R / W PLC, data encryption).</li></ul>",
+  "m-professionnal-way-somb-date": "May 2013",
+  "m-professionnal-way-tiama-description": "Technical manager of a web application giving the possibility to configure machines controlling the quality of glass.<ul><li>Aggregation of real-time machine datas (alerts, information),</li><li>Realization of production statistics,</li><li>Machine configuration by REST API, Guaranteed of an optimal user experience (4k touch screen).</li></ul>",
+  "m-professionnal-way-tiama-date": "August 2018",
+  "m-professionnal-way-wtpl-description": "Technical manager of a thick client application to supervise various European wind farms.<ul><li>Reading data from wind turbines (using a PI connector),</li><li>Optimization of the calculation performances.</li></ul>",
+  "m-professionnal-way-wtpl-date": "October 2018",
+  "m-professionnal-way-datahub-description": "Development of an IoT platform in the Azure cloud to retrieve different types of data from factories around the world.<ul><li>Implementation in several microservices,</li><li>Metrics historization in a Time Series database,</li><li>At middle term, move to production in a Kubernetes cluster,</li><li>Azure pipelines management for the build and release processes (AzureDevOps).</li></ul>",
+  "m-professionnal-way-datahub-date": "2019",
+  "m-professionnal-way-simcruevr-description": "Technical manager of a virtual reality application for trainers in flood passage. This application interacts with a simulation engine and offers a 3D view of the environment (flood room, control console, dam, etc.).<ul><li>Definition of a software architecture allowing quick development of a VR environment,</li><li>Runtime generation of the environment,</li><li>Definition of business bricks facilitating the scalability of environments.</li></ul>",
+  "m-professionnal-way-simcruevr-date": "2020",
+
+  "m-personnal-projects-title": "Personal Projects",
+  "m-personnal-projects-description": "It is important to me to exercise myself by building applications. Here are some of them.",
+  "m-personnal-projects-youtify-description": "This android application uses Youtube and Spotify APIs to manage your playlists. Built with React Native framework, you can automatically create monthly playlists and easilly synchronize them.",
+  "m-personnal-projects-grenoble-road-traffic-description": "This android application provides road camera video streaming around Grenoble city. You can choose among available cameras, those you want to follow and keep in future session.",
+  "m-personnal-projects-unity-starter-kit-description": "The UnityStarterKit assembly provides a foundation brick in C# that is used to develop virtual reality applications. Using this starter kit, you can easily do dependency injection in your application, improve the backend quality code, make REST or SOAP API calls, etc... without external code dependencies !",
+
+  "read-more": "Read More"
+}
